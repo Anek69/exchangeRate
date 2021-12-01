@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'exchangerate.dart';
 
+import 'dart:developer';
+
 void main() {
   runApp(const MyApp());
 }
-
+GestureRecognizerFactoryfgfgf
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -31,7 +33,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Exchangerate? _dataFromApi;
-
   void initState() {
     super.initState();
     print("Test");
