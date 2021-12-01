@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   @override
-  Exchangerate _dataFromApi;
+  Exchangerate? _dataFromApi;
 
   void initState() {
     super.initState();
